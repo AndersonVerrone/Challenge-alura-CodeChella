@@ -10,5 +10,12 @@
 
     /* Colors */
 
+    --dark-blue: #2E7BA2;
+    --mustard: #DF9010;
+    --ligth-blue: #C8DEEF;
+    --ligth-yellow: #FBF0DD;
+    --yellow: #FACF9D;
+    --gradient: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+
     
 }

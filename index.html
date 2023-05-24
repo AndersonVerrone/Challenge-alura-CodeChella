@@ -1,27 +1,180 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CodeChella</title>
 
-    <link rel="shortcut icon" href="./src/assets/favicon/Favicon-cinzaq.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./src/assets/favicon/Favicon-cinzaq.png"
+      type="image/x-icon"
+    />
 
     <!-- CSS -->
 
-    <link rel="stylesheet" href="./src/styles/index/styles.css">
+    <link rel="stylesheet" href="./src/styles/index/styles.css" />
 
-</head>
-<body>
+    <!-- JS -->
+    
+    <script src="./src/script/menuBurguer.js" defer></script>
+    
+  </head>
+  <body>
     <header>
-        <img src="./src/assets/img/Logos/Logo branco.svg" alt="Logo CodeChella">
-        <nav>
-            <a href="">A experiência</a>
-            <a href="">Mapa de Setores</a>
-            <a href="">Informações</a>
-            <a href="">Ingresso</a>
-        </nav>
+      <a href="./index.html">
+        <img
+          src="./src/assets/img/Logos/Logo branco.svg"
+          alt="Logo CodeChella"
+        />
+      </a>
+      <div class="burguer__menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <nav>
+        <a href="">A experiência</a>
+        <a href="">Mapa de Setores</a>
+        <a href="">Informações</a>
+        <a href="">Ingresso</a>
+      </nav>
     </header>
-</body>
+    <main>
+      <section class="banner__container">
+        <h1 class="title64-400">Boas-vindas ao</h1>
+        <h1 class="title64-400">#CodeChella2023!</h1>
+      </section>
+
+      <section class="about__container">
+        <div class="img__about"></div>
+        <div class="text__container">
+          <h3 class="text32-700">
+            &lt; 11 e 12 de Março &gt; Aluródromo de São Paulo
+          </h3>
+          <p class="text20-500">
+            Hora de programar nossa memória com novas lembranças! Uma nova
+            experiência sobre música, linguagens e, claro, tecnologia! Somos um
+            festival diverso, com vários artistas e referências. Divirta-se!
+          </p>
+          <a href="#" class="btn__buyTickets">
+            <p class="text20-700">Comprar ingresso!</p>
+            <img
+              src="./src/assets/img/Desktop/Ícones/svgs/ícone ingresso.svg"
+            />
+          </a>
+        </div>
+      </section>
+
+      <section class="lineUp__container">
+        <h2 class="title64-400">/Line-Up/</h2>
+        <div class="lineUp">
+          <div class="date__container">
+            <div class="line"></div>
+            <div class="date">
+              <p class="title48-400">SÁBADO &lt;11/03&gt;</p>
+            </div>
+            <div class="line"></div>
+          </div>
+          <div class="attractions__container">
+            <div class="main__attractions">
+              <p class="text48-800">System of a DOM</p>
+            </div>
+            <div class="secondary__attractions text40-700">
+              <p>Python Maiden</p>
+              <p>Apollo Client 2001</p>
+              <p>Bon Java</p>
+              <p>NickCallback</p>
+            </div>
+            <div class="third__attractions text32-700">
+              <p>Linkin Promises</p>
+              <p>Fullstack Fighters</p>
+              <p>Papa React</p>
+              <p>Angular in Chains</p>
+            </div>
+            <div class="fourth__attractions text32-500">
+              <p>Agnostic Front-end</p>
+              <p>SlipkNode</p>
+              <p>Pink Flutter</p>
+              <p>Kiss</p>
+            </div>
+          </div>
+          <div class="date__container">
+            <div class="line"></div>
+            <div class="date">
+              <p class="title48-400">DOMINGO &lt;12/03&gt;</p>
+            </div>
+            <div class="line"></div>
+          </div>
+          <div class="attractions__container">
+            <div class="main__attractions">
+              <p class="text48-800">Lana Del Ploy</p>
+            </div>
+            <div class="secondary__attractions text40-700">
+              <p>Dua Lib</p>
+              <p>The Backnd</p>
+              <p>CSS Styles</p>
+              <p>DJ Query</p>
+              <p>ArrayAna Grande</p>
+            </div>
+            <div class="third__attractions text32-700">
+              <p>Miley Cypress</p>
+              <p>The Bootstrap Boys</p>
+              <p>Json Derulo</p>
+              <p>CloudPlay</p>
+              <p>Dev Lovato</p>
+            </div>
+            <div class="fourth__attractions text32-500">
+              <p>Kylie MiLOG</p>
+              <p>Jenkins Brothers</p>
+              <p>Rubycat Dolls</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banner__container--bottom"></section>
+    </main>
+    <footer>
+      <div>
+        <img
+          src="./src/assets/img/Logos/Logo cinza.svg"
+          alt="Logo CodeChella"
+        />
+        <div>
+          <p class="text20-500">Acesse nossas redes:</p>
+          <a href="#">
+            <img
+              src="./src/assets/img/Desktop/Ícones/svgs/Ícone whatsapp.svg"
+              alt="Logo whatsapp"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./src/assets/img/Desktop/Ícones/svgs/Ícone Twitch.svg"
+              alt="Logo Twitch"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./src/assets/img/Desktop/Ícones/svgs/Ícone instagram.svg"
+              alt="Logo Instagram"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./src/assets/img/Desktop/Ícones/svgs/Ícone twitter.svg"
+              alt="Logo Twitter"
+            />
+          </a>
+        </div>
+      </div>
+      <div>
+        <p class="text20-500">
+          Desenvolvido por Anderson Verrone. Projeto fictício sem fins
+          comerciais.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>

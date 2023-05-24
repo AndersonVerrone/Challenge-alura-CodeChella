@@ -1,2 +1,8 @@
 @import url(../globalStyles.css);
+@import url(./main.css);
+@import url(./section-banner.css);
+@import url(./section-about.css);
+@import url(./section-lineUp.css);
+@import url(./section-banner-bottom.css);
+
 

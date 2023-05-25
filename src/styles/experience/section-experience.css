@@ -1,0 +1,181 @@
+ .experiences__container {
+     display: flex;
+     align-self: center;
+     flex-direction: column;
+     padding: 4rem 0;
+ }
+
+ .experience {
+    width: 74.8125rem;
+    height: 23.8125rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+ }
+
+ .img__experience {
+    width: 38.0625rem;
+    height: 23.8125rem;
+    border-radius: 1rem;
+ }
+
+ .experience:first-child {
+    margin-bottom: 4rem;
+ }
+
+ .experience:nth-child(2) {
+    margin: 4rem 0;
+    flex-direction: row-reverse;
+ }
+
+ .experience:last-child {
+    margin-top: 4rem;
+ }
+
+ .experience:first-child > .img__experience {
+    background-image: url('../../assets/img/Desktop/Imagens/2\ -\ A\ experiência1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .experience:nth-child(2) > .img__experience {
+    background-image: url('../../assets/img/Desktop/Imagens/2\ -\ A\ Experiência2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .experience:last-child > .img__experience {
+    background-image: url('../../assets/img/Desktop/Imagens/2\ -\ A\ Experiência3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .text__experience {
+    width: 33.75rem;
+    height: 21.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+ }
+
+ .experience:nth-child(2) > .text__experience {
+    align-items: flex-end;
+    text-align: end;
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1224px) {
+
+   .experiences__container {
+      padding: 2rem 0;
+   }
+
+   .experience {
+      width: 40.5rem;
+      height: fit-content;
+      flex-direction: column;
+      gap: 2rem;
+   }
+
+   .img__experience {
+      width: 38.0625rem;
+      height: 23.8125rem;
+   }
+
+   .experience:first-child {
+      margin-bottom: 2rem;
+   }
+  
+   .experience:nth-child(2) {
+      margin: 2rem 0 2rem;
+      flex-direction: column;
+   }
+  
+   .experience:last-child {
+      margin-top: 2rem;
+   }
+
+   .experience:first-child > .img__experience {
+      background-image: url('../../assets/img/Tablet/Imagens/2\ -\ A\ Experiência1.png');
+   }
+
+   .experience:nth-child(2) > .img__experience {
+      background-image: url('../../assets/img/Tablet/Imagens/2\ -\ A\ experiência2.png');
+   }
+
+   .experience:last-child > .img__experience {
+      background-image: url('../../assets/img/Tablet/Imagens/2\ -\ A\ experiência3.png');
+   }
+
+   .text__experience {
+      width: 40.5rem;
+      height: fit-content;
+      align-items: center;
+      text-align: center;
+      gap: 0;
+   }
+
+   .experience:nth-child(2) > .text__experience {
+      align-items: center;
+      text-align: center;
+   }
+ }
+
+ @media screen and (max-width: 767px) {
+
+   .experiences__container {
+      padding: 2rem 1.5rem;
+   }
+
+   .experience {
+      width: 100%;
+      height: fit-content;
+      flex-direction: column;
+      gap: 2rem;
+   }
+
+   .img__experience {
+      width: 100%;
+      height: 23.8125rem;
+   }
+
+   .experience:first-child {
+      margin-bottom: 2rem;
+   }
+  
+   .experience:nth-child(2) {
+      margin: 2rem 0 2rem;
+      flex-direction: column;
+   }
+  
+   .experience:last-child {
+      margin-top: 2rem;
+   }
+
+   .experience:first-child > .img__experience {
+      background-image: url('../../assets/img/Mobile/Imagens/2\ -\ A\ Experiência\ 1.png');
+   }
+
+   .experience:nth-child(2) > .img__experience {
+      background-image: url('../../assets/img/Mobile/Imagens/2\ -\ A\ Experiência\ 2.png');
+   }
+
+   .experience:last-child > .img__experience {
+      background-image: url('../../assets/img/Mobile/Imagens/2\ -\ A\ Experiência\ 3.png');
+   }
+
+   .text__experience {
+      width: 100%;
+      height: fit-content;
+      align-items: center;
+      text-align: center;
+      gap: 0;
+   }
+
+   .experience:nth-child(2) > .text__experience {
+      align-items: center;
+      text-align: center;
+   }
+ }
